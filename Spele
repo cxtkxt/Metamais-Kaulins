@@ -43,8 +43,21 @@ Struktūrskice
     - kārtas_punkti += metiens
     - spēlētājs izvēlas:
       - turpināt mest
-      - vai bankot punktus
-  - ja banko:
-    - pievieno kārtas_punkti kopējiem punktiem
-- ja kāds ≥ 100 → uzvara
+      - vai  punktus
+    - pievieno kārtas punkti kopējiem punktiem
+- ja kāds >= 100  uzvara
 - End
+
+Testpiemēru kopa
+
+Tests 1:
+Metieni: 5 + 6 + 4
+Rezultāts: +15 punkti
+
+Tests 2:
+Metieni: 6 + 3 + 1
+Rezultāts: 0 punkti
+
+Tests 3:
+Metieni: 5 + 5 + 5
+Rezultāts: +15 punkti
