@@ -1,0 +1,7 @@
+“Pig” ir vienkārša kauliņa spēle diviem spēlētājiem. Spēlētāji pārmaiņus
+met sešpusīgu kauliņu (1–6), cenšoties sasniegt 100 punktus.
+Katras kārtas laikā spēlētājs var mest kauliņu vairākas reizes un krāt punktus.
+Ja spēlētājs izmet 1, viņš zaudē visus punktus, kas iegūti šajā kārtā, un gājiens beidzas.
+Spēlētājs var jebkurā brīdī izvēlēties pārtraukt (bankot punktus), pievienojot
+kārtas punktus savam kopējam rezultātam.
+Uzvar tas spēlētājs, kurš pirmais sasniedz 100 punktus.
