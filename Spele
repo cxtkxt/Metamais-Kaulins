@@ -27,3 +27,24 @@ Nefunkcionālās prasības:
 - Spēlei jābūt vienkārši saprotamai
 - Jābūt iespējai pieņemt lēmumu (mest vai apstāties)
 - Jādarbojas bez sarežģītas sistēmas
+
+Struktūrskice
+
+- Start
+- spēlētājs1_punkti = 0
+- spēlētājs2_punkti = 0
+- kamēr neviens nav sasniedzis 100:
+  - kārtas_punkti = 0
+  - met kauliņu (1–6)
+  - ja metiens == 1:
+    - kārtas_punkti = 0
+    - gājiens beidzas
+  - citādi:
+    - kārtas_punkti += metiens
+    - spēlētājs izvēlas:
+      - turpināt mest
+      - vai bankot punktus
+  - ja banko:
+    - pievieno kārtas_punkti kopējiem punktiem
+- ja kāds ≥ 100 → uzvara
+- End
